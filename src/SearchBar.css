@@ -1,0 +1,35 @@
+.box{
+    width: 90vw;
+    margin: 5vw;
+    background-color: #D9D9D9;
+    overflow: hidden;
+}
+input{
+    padding: 4px;
+}
+input::placeholder{
+    color: black;
+    opacity: 1;
+}
+#input1{
+    background-color: #73ACFB;
+    width: 45vw;
+    margin: 10px;
+    
+}
+
+.in1{
+    background-color: #95C1FD;
+    width: 20vw;
+    margin: 10px;
+}
+button{
+    background-color: #aaf956;
+    padding: 3px;
+}
+button:hover{
+    transform: scale(1.1);
+}
+button:active {
+    transform: translateY(4px);
+  }
